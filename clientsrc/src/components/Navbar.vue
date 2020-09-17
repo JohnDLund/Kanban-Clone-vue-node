@@ -61,7 +61,8 @@
 <script>
 import axios from "axios";
 let _api = axios.create({
-  baseURL: "https://localhost:3000",
+  baseURL:
+    "https://localhost:3000, https://kanban-clone-john-lund.herokuapp.com/",
   withCredentials: true,
 });
 export default {
